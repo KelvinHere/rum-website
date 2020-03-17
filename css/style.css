@@ -1,0 +1,128 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+.mark-text {
+    background-color: rgba(0,0,0,0.5);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 700;
+    color: white;
+    border-radius: 4px;
+}
+
+.callout-container{
+    height: 100vh;
+    
+    /*Full size background image for element*/
+    background: url("../images/rum-background.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /*flexbox, can align content and justify content*/
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    position: relative;
+}
+
+.table-container{
+
+}
+.quotes-container{
+    background-color: #e0d6c4;
+
+}
+
+.features-container{
+
+}
+
+/*Jumbotron*/
+.jumbotron{
+    background:transparent;
+}
+
+.jumbotron-header{
+    color:white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead{
+    margin: 30px 0;
+    color: #a7a7a7;
+}
+
+.jumbotron small{
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+.opaque-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/*block dividers*/
+
+.block-divider{
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #8a7652;
+    margin: auto;
+}
+
+.block-divider--brown{
+    background-color: #8a7652;
+}
+
+.block-divider--short{
+    width:35px;
+}
+
+/*Buttons*/
+.btn--cta{
+    font-weight: bold;
+    border-radius: 25px;
+    width: 160px;
+}
+
+.btn--color{
+    color: white;
+    background-color: #8a7652;
+    border-color: white;
+    border-width: 2px;
+}
+
+.btn--color:hover{
+    background-color: #e0d6c4;
+    border-color: black;
+}
+
+.btn--color:focus{
+    background-color: #e0d6c4;
+    border-color: black;
+}
+
+/*Quote formatting*/
+.quote-block{
+    background-color: #d2c8b5;
+    padding-top: 20px;
+    border-radius: 30px;
+    border: 10px solid #e0d6c4;
+}
