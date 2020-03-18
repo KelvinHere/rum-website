@@ -12,46 +12,45 @@
     <title>Rum Time | Monthly rum experience</title>
 </head>
 <body>
+    <!--Alert-->
+    <section class="container-fluid alert-container d-none d-sm-block">
+        <div class="alert alert-warning text-center m-0"><strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for 6! <a href="">See here for details!</a></div>
+    </section>
+   
+    <!--/Alert-->
+
     <!--Nav Bar-->
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
-        <a href="/" class="navbar-brand">Rum Time</a>
+    <nav class="navbar navbar-dark navbar-expand-sm">
+       <a href="/" class="navbar-brand">Rum Time</a>
+       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Togglenavigation">
+       <span class="navbar-toggler-icon"></span></button>
 
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Togglenavigation">
-    <span class="navbar-toggler-icon"></span></button>
-
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav mr-auto">
-            <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rums</a>
-                <div>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Jamaica</a>
-                        <a class="dropdown-item" href="#">France</a>
-                        <a class="dropdown-item" href="#">Philippines</a>
-                        <a class="dropdown-item" href="#">Cuba</a>
-
+       <div class="collapse navbar-collapse" id="navbarNavDropdown">
+           <ul class="navbar-nav mr-auto">
+               <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+               <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rums</a>
+                  <div>
+                       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                           <a class="dropdown-item" href="#">Jamaica</a>
+                           <a class="dropdown-item" href="#">France</a>
+                           <a class="dropdown-item" href="#">Philippines</a>
+                           <a class="dropdown-item" href="#">Cuba</a>
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li class="mr-2 d-block d-md-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
-        </ul>
-    </div>
+                </li>
+                <li class="mr-2 d-block d-md-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
+            </ul>
+        </div>
 
-        <div class="d-none d-md-block">
-            <p class="navbar-text my-auto mr-2"><i>Great rum delivered monthly!</i></p>
-            <a href="/login">Sign In / Sign Up</a>
+       <div class="d-none d-md-block">
+          <p class="navbar-text my-auto mr-2"><i>Great rum delivered monthly!</i></p>
+              <a href="/login">Sign In / Sign Up</a>
         </div>
     </nav>
     <!--/NavBar-->
-
-    <!--Alert-->
-    <section class="container-fluid d-none d-sm-block mt-3">
-        <div class="alert alert-warning text-center"><strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for 6! <a href="">See here for details!</a></div>
-    </section>
-    <!--/Alert-->
-
+    
     <!--Callout-->
     <article class="container-fluid callout-container pt-3">
         <div class="opaque-overlay"></div>
@@ -73,11 +72,11 @@
     <!--/Callout-->
     
     <!--Table of monthly favourites-->
-    <section class="container table-container mt-4 mb-3">
+    <section class="container-fluid table-container pt-5 pb-5">
         <div class="row">
             <div class="col-12">
-                <h2>Top 5 of the month</h2>
-                <table class="table bg-light">
+                <h2 class="text-center"><strong>Top 5 of the month</strong></h2>
+                <table class="table table-dark table-bg">
                     <thead>
                         <tr>
                         <th scope="col">#</th>
@@ -119,10 +118,10 @@
     <!--/Table of monthly favourites-->
 
     <!--Quotes-->
-    <section class="container-fluid quotes-container">
+    <section class="container-fluid quotes-container pt-3 pb-3">
         <div class="row">
             <div class="col-12 mt-3 mb-3">
-                <h2 class="text-uppercase">Quotes</h2>
+                <h2 class="text-uppercase text-center">Experiences</h2>
             </div>
         </div>
 
@@ -169,7 +168,6 @@
                 </div>
             </div>
         </div>
-        <hr>
     </section>
     <!--/Quotes-->
 
