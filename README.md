@@ -2,6 +2,8 @@
 
 A sample website for a rum delivery service using mobile first principles.
 
+https://kelvinhere.github.io/rum-website/
+
 ## Built With
 
 HTML - CSS - Bootstrap
